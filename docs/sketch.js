@@ -16,6 +16,8 @@ function draw() {
   background(0);
   noFill();
   stroke(255);
+  line(0,h/2,w,h/2);
+  stroke(255,0,0);
   beginShape();
   for (i=0;i<n;i++){
     vertex(w*i/n,(x[i]+1)*h/2);
